@@ -668,6 +668,7 @@ source = { editable = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "matplotlib" },
+    { name = "numpy" },
     { name = "torch" },
 ]
 
@@ -680,6 +681,7 @@ dev = [
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "matplotlib", specifier = ">=3.11.2" },
+    { name = "numpy", specifier = ">=2.5.3" },
     { name = "torch", specifier = ">=2.14.1" },
 ]
 
